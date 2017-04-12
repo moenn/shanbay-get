@@ -7,8 +7,8 @@
 [phantomJS](http://phantomjs.org/)  
 
 ### [get_today_article_links.py](https://github.com/mengshengjiang/shanbay-get/blob/master/get_today_article_links.py)  
-用来获取扇贝今日更新的所有文章，一般有 15 篇左右。链接存放到 *get_today_article_links.py* 所在目录下的  *%Y%m%d.txt* 文件中。  
-需要更改这行代码 >>  *driver = webdriver.PhantomJS(executable_path=r'你的phantomJS可执行文件所在路径')*
+用来获取扇贝今日更新的所有文章，一般有 15 篇左右。文章链接存放到 *get_today_article_links.py* 所在目录下的  *%Y%m%d.txt* 文件中。
+需要更改这行代码 >> *driver = webdriver.PhantomJS(executable_path=r'你的phantomJS可执行文件所在路径')*
 
 ### [get_notes_links.py](https://github.com/mengshengjiang/shanbay-get/blob/master/get_notes_links.py)      
 获取今日更新文章上的所有笔记。  
