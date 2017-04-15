@@ -12,4 +12,7 @@
 
 ### [get_notes_links.py](https://github.com/mengshengjiang/shanbay-get/blob/master/get_notes_links.py)      
 获取今日更新文章上的所有笔记。  
-爬取规则有遗漏，需要更改...
+爬取规则有遗漏，需要更改...  
+
+### [get_today_contribution]()  
+获取扇贝小组里每个人的贡献值,并以 .pkl 文件存储到本地.
